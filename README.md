@@ -7,9 +7,9 @@ Why Embedded Testing Really Matters:
 
 More to come, see syllabi here for overview of topics, flow of the class
 
-Office hours TBA
+Office hours Wednesday 8:00am-9:00am
 
-first reading, to prepare yourselves: https://www.usenix.org/system/files/1311_05-08_mickens.pdf
+First reading, to prepare yourselves: https://www.usenix.org/system/files/1311_05-08_mickens.pdf
 
 CLASS 1: General Overview of Class
 
@@ -28,3 +28,6 @@ CLASS 2: Embedded Software, What is It?
 * * In particular, sensors + actuators is often the model
 * * "Old school" physical world not social media land
 * * Examples:  automotive, power plants, aerospace, robots, Internet of Things (controlled by the Russian mafia)...
+
+CLASS 3:  Read Mickens, particular problems of testing embedded world; break the code, break the "OS" and you can't debug/trace
+
