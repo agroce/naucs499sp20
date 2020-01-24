@@ -1,3 +1,4 @@
 all: *.c *.h
-	afl-clang -o simplesplit_afl simplesplit.c pbuffer.c
-
+	clang -o pbuffer pbuffer_afl.c pbuffer.c
+	afl-clang -o pbuffer_afl pbuffer_afl.c pbuffer.c
+	clang++ -o pbuffer_libfuzzer pbuffer_libfuzzer.cpp pbuffer.c -fsanitize=fuzzer
