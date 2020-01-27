@@ -9,7 +9,7 @@ int main() {
     printf("buffer[%u] = %u\n", i, buffer[i]);
   }
   for (int i = 5; i < 64; i++) {
-    if ((usigned)buffer[i] > 5) {
+    if ((unsigned)buffer[i] > 5) {
       exit(0);
     }
   }

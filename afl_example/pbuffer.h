@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <assert.h>
+#include <stdio.h>
 
 void pbuffer(unsigned char *buffer);
 
