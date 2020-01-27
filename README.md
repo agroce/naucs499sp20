@@ -41,4 +41,9 @@ Things to look at:
 * Good overview of Bart Miller's work, includes links to the paper(s):  https://blog.trailofbits.com/2018/12/31/fuzzing-like-its-1989/
 * The AFL website: http://lcamtuf.coredump.cx/afl/
 
+CLASS 5:  We talked more about fuzzing and ran AFL and libfuzzer
 
+CLASS 6:  We're finishing up the intro to fuzzing
+
+*[ASSIGNMENT 1](https://github.com/agroce/naucs499sp20/blob/master/assignment1.txt)
+ went out*
