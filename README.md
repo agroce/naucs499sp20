@@ -45,5 +45,5 @@ CLASS 5:  We talked more about fuzzing and ran AFL and libfuzzer
 
 CLASS 6:  We're finishing up the intro to fuzzing
 
-*[ASSIGNMENT 1](https://github.com/agroce/naucs499sp20/blob/master/assignment1.txt)
- went out*
+_[ASSIGNMENT 1](https://github.com/agroce/naucs499sp20/blob/master/assignment1.txt)
+ went out_
