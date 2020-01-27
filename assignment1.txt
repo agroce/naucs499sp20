@@ -1,0 +1,20 @@
+Assignment 1:  AFL and libFuzzer
+DUE DATE:  2/17/20
+
+1.  Create a private github repo, named <yournauid>_cs499_sp20
+
+2.  Give me access as a collaborator (I'm agroce@gmail.com)
+
+3.  Find some interesting C function out there in the real world.  Put a brief description of what it does, and where you got it.  You want this to be fairly simple and reasonable to fuzz.
+
+4.  Put that code as a function in a file cfunction.c, with header cfunction.h.  See afl_example/pbuffer.c/.h for some guidance on what this will look like.
+
+5.  Write an AFL "harness" for your function, put it in afl_cfunction.c.
+
+6.  Write a libFuzzer "harness" for your function, put it in libfuzzer_cfunction.cpp.
+
+7.  Write an appropriate Makefile.
+
+8.  RUN THESE FUZZERS, with AFL with and without -d, with some interesting different seeds, and with libFuzzer with different size limits and -use_value_profile=1.
+
+9.  Discuss your results in a file, results.txt.  You're gonna want at least 300 words here.  More is fine.
