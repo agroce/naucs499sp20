@@ -56,3 +56,17 @@ but):
 * * Notion of WHAT IS INTERESTING BEHAVIOR?
 * * How to modify/mutate files
 * There is no "best fuzzer" -- need to run many, hope to get lucky!
+
+CLASS 7: Sanitizers 1
+
+* Sanitizers are powerful tools for _making your code crash more_
+* Expose bad behavior that slips by, e.g. memory-safety issues
+* -fsanitize=address - AddressSanitizer (ASAN) is best known, most
+useful
+* Others:  undefined (UBSAN), integer, memory (uninitialized values),
+thread
+
+* Sanitizers are SLOW:  2x up to much worse slowdown; in class we saw
+4x
+* Slow is fine for unit tests, but not so hot for fuzzing
+* Sanitizers are VERBOSE -- real code produces lots of bogus warnings, often
