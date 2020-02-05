@@ -96,3 +96,21 @@ READINGS FOR NEXT WEEK:
 
 * https://www.cs.princeton.edu/courses/archive/fall12/cos109/mars.rover.pdf
 * https://spaceflight.nasa.gov/spacenews/releases/2000/mpl/mpl_report_1.pdf
+
+CLASS 9:
+
+* NASA Gossip, My Career
+
+CLASS 10:
+
+* Test what you fly
+
+* Doing fixed operations with systematic or even random faults is not enough, need random
+operations (see tester.txt)
+
+* Rename's a beast
+
+* MER shows lots of GOOD practices (paranoia, systems that do
+  predictable talking to home, heavy fault protection), and some
+  weaknesses in testing
+

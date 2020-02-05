@@ -1,0 +1,17 @@
+reboot_location = random(1024)
+
+do A*
+do B
+do C
+do D
+do E
+do F
+
+check that data is ok
+
+* if reboot happens during, then check you can still mount, checkfs, and try A again
+
+
+loop "forever"
+   maybe schedule a reset in K bytes
+   do one of (A, B, C, D, E, F...)*
