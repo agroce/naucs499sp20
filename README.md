@@ -114,3 +114,12 @@ operations (see tester.txt)
   predictable talking to home, heavy fault protection), and some
   weaknesses in testing
 
+CLASS 11:
+
+* Mars Polar Lander
+
+* additional info: http://web.mit.edu/16.070/www/readings/Failures_MCO_MPL.pdf
+
+* If a test fails and you "fix" the bug, run the test again to make sure
+
+* Never assume requirements are complete!
