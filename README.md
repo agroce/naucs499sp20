@@ -7,7 +7,7 @@ Why Embedded Testing Really Matters:
 
 More to come, see syllabi here for overview of topics, flow of the class
 
-Office hours Wednesday 8:00am-9:00am
+Office hours Wednesday 8:00am-9:00am (SICCS 208)
 
 First reading, to prepare yourselves: https://www.usenix.org/system/files/1311_05-08_mickens.pdf
 
