@@ -124,6 +124,6 @@ CLASS 11:
 
 * Never assume requirements are complete!
 
-* Backdoors from compiler bugs:  see file:///Users/adg326/Downloads/issue08.pdf -- also, the classic article here is https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf (Ken Thompson's Turing Award speech)
+* Backdoors from compiler bugs:  see https://www.alchemistowl.org/pocorgtfo/pocorgtfo08.pdf -- also, the classic article here is https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf (Ken Thompson's Turing Award speech)
 
 * Testing has grave responsibility (and, ok, often not that much power, sorry)
