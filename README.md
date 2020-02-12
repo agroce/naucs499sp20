@@ -135,3 +135,13 @@ CLASS 12:
 * Why DeepState -- see https://github.com/agroce/deepstate-stack
 
 * **READING ASSIGNMENT FOR WEDNESDAY:** https://blog.trailofbits.com/2019/01/22/fuzzing-an-api-with-deepstate-part-1/
+
+CLASS 13:
+
+* We ran a bunch of fuzzers, and looked for pizza
+
+* DeepState lets you run many different fuzzers (and other tools) easily
+
+* DeepState is a unit testing library, but you can ask a tool to pick the values forr you
+
+* See deepstate_example
