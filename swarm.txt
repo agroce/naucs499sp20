@@ -1,0 +1,17 @@
+Traditional test generation always uses "the kitchen sink"
+
+E.g, if our API is
+
+push(n)
+pop()
+clear()
+
+it will call all three with equal probability.
+
+Question:  what is the mean stack size?
+
+(1/3)^10
+(1/7)^64
+
+Swarm testing flips a coin for each API call before starting each test.  If the coin is tails, never call that API call.
+

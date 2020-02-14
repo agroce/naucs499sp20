@@ -1,0 +1,22 @@
+
+
+sort ([3, 2, 1, 5]) == [1, 2, 3, 5]
+
+
+
+sort (someList) == ??????
+
+options:
+
+1.  go differential.  you lucky dog, you have another sort!
+
+sort(someList) == somebody_else's_sort(someList)
+
+2.  ???
+
+sortedList = sort(someList)
+
+for i in range(len(sortedList)-1):
+    assert sortedList[i] <= sortedList[i+1]
+
+assert (sortedList is a permutation of someList)
