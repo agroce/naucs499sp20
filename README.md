@@ -7,7 +7,7 @@ Why Embedded Testing Really Matters:
 
 More to come, see syllabi here for overview of topics, flow of the class
 
-Office hours Wednesday 8:00am-9:00am
+Office hours Wednesday 8:00am-9:00am (SICCS 208)
 
 First reading, to prepare yourselves: https://www.usenix.org/system/files/1311_05-08_mickens.pdf
 
@@ -127,3 +127,33 @@ CLASS 11:
 * Backdoors from compiler bugs:  see https://www.alchemistowl.org/pocorgtfo/pocorgtfo08.pdf -- also, the classic article here is https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf (Ken Thompson's Turing Award speech)
 
 * Testing has grave responsibility (and, ok, often not that much power, sorry)
+
+CLASS 12:
+
+* Fuzzing a simple library with afl (see stack_example directory)
+
+* Why DeepState -- see https://github.com/agroce/deepstate-stack
+
+* **READING ASSIGNMENT FOR WEDNESDAY:** https://blog.trailofbits.com/2019/01/22/fuzzing-an-api-with-deepstate-part-1/
+
+CLASS 13:
+
+* We ran a bunch of fuzzers, and looked for pizza
+
+* DeepState lets you run many different fuzzers (and other tools) easily
+
+* DeepState is a unit testing library, but you can ask a tool to pick the values forr you
+
+* See deepstate_example
+
+CLASS 14:
+
+* More DeepState, this time a look at the stack example
+
+* Introduced swarm testing (see https://agroce.github.io/issta12.pdf)
+
+* See file swarm.txt; we could find the stack "bug" in no time with swarm, not find it in hours without using it
+
+* DeepState lets us apply meta-heuristics, "extra tricks" on top of fuzzers like AFL/libFuzzer
+
+* See unittestsort.txt for a preview of Monday
