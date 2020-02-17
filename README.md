@@ -157,3 +157,9 @@ CLASS 14:
 * DeepState lets us apply meta-heuristics, "extra tricks" on top of fuzzers like AFL/libFuzzer
 
 * See unittestsort.txt for a preview of Monday
+
+CLASS 15:
+
+* Writing a test for generic binary search (see binsearch directory)
+
+* Setting up input is tricky; fuzzer really will generate ANYTHING you let it
