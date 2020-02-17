@@ -15,3 +15,5 @@ check that data is ok
 loop "forever"
    maybe schedule a reset in K bytes
    do one of (A, B, C, D, E, F...)*
+   also do it on the REFERENCE FILE SYSTEM
+   check that reference and tested system have same contents
