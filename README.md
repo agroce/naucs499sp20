@@ -47,7 +47,7 @@ CLASS 5:  We talked more about fuzzing and ran AFL and libfuzzer
 
 CLASS 6:  We're finishing up the intro to fuzzing
 
-**[ASSIGNMENT 1](https://github.com/agroce/naucs499sp20/blob/master/assignment1.txt)
+**[ASSIGNMENT 1](https://github.com/agroce/naucs499sp20/blob/master/assignment1.txt) 
 went out**
 
 * Topic:  command line options for fuzzers, esp. -use_value_profile=1
@@ -164,4 +164,11 @@ CLASS 15:
 
 * Setting up input is tricky; fuzzer really will generate ANYTHING you let it
 
-* Also we learned https://www.tutorialspoint.com/c_standard_library/c_function_qsort.htm (a top google hit) has a broken comparison function.  TRUST NO ONE!
+* Also we learned
+  https://www.tutorialspoint.com/c_standard_library/c_function_qsort.htm
+  (a top google hit) has a broken comparison function.  TRUST NO ONE!
+
+CLASS 16:
+
+**[ASSIGNMENT 2](https://github.com/agroce/naucs499sp20/blob/master/assignment2.txt) 
+went out**

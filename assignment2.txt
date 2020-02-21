@@ -1,0 +1,21 @@
+Assignment 2: DeepState
+DUE DATE:  3/9/20
+
+1.  Create a subdirectory in your class repo called assignment2
+
+2.  Find some interesting API: a library with multiple functions to
+call, and (moderately) interesting properties beyond purely "does not
+crash".  An obvious example would be some "safe" replacement for
+string.h.  It should still do what strcat etc do on valid inputs
+
+3.  Write a DeepState harness to test this API.  Ideally, actually
+commit a version of the code under test in your repo, otherwise add
+info on how to grab it and compile it for DeepState use
+
+4.  Write an appropriate Makefile.
+
+5.  Run various fuzzers, AFL, the deepstate --fuzz one, libfuzzer,
+eclipser, maybe honggfuzz, even try symbolic executors; have fun, try
+swarm testing
+
+6.  Discuss your results in a file, results.txt.  You're gonna want at least 800 words here.  More is fine.
