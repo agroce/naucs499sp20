@@ -182,3 +182,13 @@ went out**
 * Hunt for **ROUND TRIP** properties, especially: these are subtle, hard to get right, and present all over the place.  This is when f(g(x)) should be x again.  File systems and containers are even like this (read(write(data)) should just get you the data; get(key, set(key, value)) ought to be value.  And compression libraries should not change data.
 
 * We looked at a real bug in c-blosc2 found with DeepState
+
+CLASS 17:
+
+* The midterm will be Friday of the week assignment 2 is due; we'll review Mon & Wed
+
+* We looked at simulating hardware.  Why?  Real hardware is slow, hard to inject faults in, and may be expensive/dangerous to mess with/not exist
+
+* We looked at simulated resets in https://github.com/agroce/testfs
+
+* Injecting faults via fuzzing is a really good way to poke holes in even good embedded code
