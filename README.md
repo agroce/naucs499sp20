@@ -192,3 +192,15 @@ CLASS 17:
 * We looked at simulated resets in https://github.com/agroce/testfs
 
 * Injecting faults via fuzzing is a really good way to poke holes in even good embedded code
+
+CLASS 18:
+
+* We added corruption to resets, and found a LOT more bugs, quicker
+
+* But "cranking up" to a harder fault model may not be a good idea, if less nasty faults are finding lots of bugs; fix the more likely ones first, avoid arguing about what the system should handle
+
+CLASS 19:
+
+* Use docker commit to save your docker containers
+
+* Go read https://www.amazon.com/Masterminds-Programming-Conversations-Creators-Languages/dp/0596515170 -- great book!  Look for the quote that all software ends up either failed or a legacy horror
