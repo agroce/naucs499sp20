@@ -18,7 +18,7 @@
 | [Class 15](./notes/Class15.md) | February 14, 2020 | Looking at the STACK |
 | [Class 16](./notes/Class16.md) | February 17, 2020 | Testing Binary Search |
 | [Class 17](./notes/Class17.md) | February 19, 2020 | Class Cancelled! Deepstate Docker Notes |
-| [Class 18](./notes/Class18.md) | February 21 2020 | Homework 1 Assigned! |
+| [Class 18](./notes/Class18.md) | February 21 2020 | Homework 2 Assigned! |
 | [Class 19](./notes/Class19.md) | February 24 2020 | Hardware Simulation |
 | [Class 20](./notes/Class20.md) | February 26, 2020 | Corruption Tests |
 | [Class 21](./notes/Class21.md) | February 28, 2020 | Docker Overview |
