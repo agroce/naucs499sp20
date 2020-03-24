@@ -1,4 +1,4 @@
-CLASS 28: (begin online mode)
+# CLASS 28: (begin online mode)
 
 Symbolic execution!
 
