@@ -1,5 +1,4 @@
-
-# CLASS 25: (begin online mode) - March 23 2020
+CLASS 28: (begin online mode)
 
 Symbolic execution!
 

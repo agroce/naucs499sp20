@@ -1,19 +1,19 @@
-# CLASS 8: Sanitizers Big Picture / Odds and Ends
+# CLASS 8: Sanitizers 1
 
-* Well defined behavior: program only does "legal" things
-* Implementation-defined behavior: program does stuff where compilers
-  can vary, but there is a requirement to have some meaning, often
-  within constraints
-  * Undefined behavior: see https://blog.regehr.org/archives/213
+* Sanitizers are powerful tools for _making your code crash more_
+* Expose bad behavior that slips by, e.g. memory-safety issues
+* -fsanitize=address - AddressSanitizer (ASAN) is best known, most
+useful
+* Others:  undefined (UBSAN), integer, memory (uninitialized values),
+thread
 
-* Fuzzing crypto can be tough:  no paths, in part to avoid
-timing/power attacks
+* Sanitizers are SLOW:  2x up to much worse slowdown; in class we saw
+4x
+* Slow is fine for unit tests, but not so hot for fuzzing
+* Sanitizers are VERBOSE -- real code produces lots of bogus warnings, often
 
-* Run fuzzing in a VM, to avoid a bug trashing your file system
-
-* radamsa is a "mess with this input" fuzzer
-
-READINGS FOR NEXT WEEK:
-
-* https://www.cs.princeton.edu/courses/archive/fall12/cos109/mars.rover.pdf
-* https://spaceflight.nasa.gov/spacenews/releases/2000/mpl/mpl_report_1.pdf
+* Good general reading on the sanitizers from Google is at
+  https://github.com/google/sanitizers -- in particular, note the top
+  contributor, kcc : Kostya Serebryany (known as "Kostya" like
+  "Prince" or "Madonna" to security/testing people) is also the
+  libFuzzer Guy

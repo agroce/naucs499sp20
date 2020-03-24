@@ -1,9 +1,11 @@
 # CLASS 15:
 
-* Writing a test for generic binary search (see binsearch directory)
+* More DeepState, this time a look at the stack example
 
-* Setting up input is tricky; fuzzer really will generate ANYTHING you let it
+* Introduced swarm testing (see https://agroce.github.io/issta12.pdf)
 
-* Also we learned
-  https://www.tutorialspoint.com/c_standard_library/c_function_qsort.htm
-  (a top google hit) has a broken comparison function.  TRUST NO ONE!
+* See file swarm.txt; we could find the stack "bug" in no time with swarm, not find it in hours without using it
+
+* DeepState lets us apply meta-heuristics, "extra tricks" on top of fuzzers like AFL/libFuzzer
+
+* See unittestsort.txt for a preview of Monday

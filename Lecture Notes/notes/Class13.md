@@ -1,9 +1,7 @@
 # CLASS 13:
 
-* We ran a bunch of fuzzers, and looked for pizza
+* Fuzzing a simple library with afl (see stack_example directory)
 
-* DeepState lets you run many different fuzzers (and other tools) easily
+* Why DeepState -- see https://github.com/agroce/deepstate-stack
 
-* DeepState is a unit testing library, but you can ask a tool to pick the values for you
-
-* See deepstate_example
+* **READING ASSIGNMENT FOR WEDNESDAY:** https://blog.trailofbits.com/2019/01/22/fuzzing-an-api-with-deepstate-part-1/

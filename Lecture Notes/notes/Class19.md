@@ -1,9 +1,9 @@
 # CLASS 19:
 
-* Use docker commit to save your docker containers
+* The midterm will be Friday of the week assignment 2 is due; we'll review Mon & Wed
 
-* Go read
-  https://www.amazon.com/Masterminds-Programming-Conversations-Creators-Languages/dp/0596515170
-  -- great book!  Look for the quote that all software ends up either
-  failed or a legacy horror!  (NOTE: NOT A READING ASSIGNMENT, JUST A
-  FRIENDLY ENDORSEMENT OF THE BOOK)
+* We looked at simulating hardware.  Why?  Real hardware is slow, hard to inject faults in, and may be expensive/dangerous to mess with/not exist
+
+* We looked at simulated resets in https://github.com/agroce/testfs
+
+* Injecting faults via fuzzing is a really good way to poke holes in even good embedded code
