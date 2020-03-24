@@ -1,4 +1,4 @@
-CLASS 22:
+# CLASS 22:
 
 * Triage is as important as bug-finding: report, effectively, unique
 bugs

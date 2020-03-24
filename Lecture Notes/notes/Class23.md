@@ -1,4 +1,4 @@
-CLASS 23:
+# CLASS 23:
 
 * KARL POPPER:  science is _about_ falsification and "mean-spirited"
 experiments

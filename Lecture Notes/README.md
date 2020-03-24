@@ -3,9 +3,9 @@
 |-------|------|-------------|
 | [Class 1](./notes/Class01.md) | January 13, 2020 | First Day of Class! General Overview |
 | [Class 2](./notes/Class02.md) | January 15, 2020 | Embedded Software, What is It? |
-| [Class 3](./notes/Class03.md) | January 17, 2020 | Embedded Software, What is It? |
-| [Class 4](./notes/Class04.md) | January 20, 2020 | Problems of Embded Testing |
-| [Class 5](./notes/Class05.md) | January 22, 2020 | We will start talking about *fuzzing* |
+| [Class 3](./notes/Class03.md) | January 17, 2020 | Problems of Embded Testing |
+| [Class 4](./notes/Class04.md) | January 20, 2020 | We will start talking about *fuzzing* |
+| [Class 5](./notes/Class05.md) | January 22, 2020 | Reading Bytes from stdin |
 | [Class 6](./notes/Class06.md) | January 24, 2020 | We talked more about fuzzing and ran AFL and libfuzzer |
 | [Class 7](./notes/Class07.md) | January 27, 2020 | We're finishing up the intro to fuzzing |
 | [Class 8](./notes/Class08.md) | January 29, 2020 | Sanitizers 1 |

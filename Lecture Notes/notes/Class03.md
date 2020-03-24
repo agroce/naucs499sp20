@@ -1,10 +1,5 @@
-# CLASS 3:  Embedded Software, What is It?
+# CLASS 3: Read Mickens, particular problems of testing embedded world; break the code, break the "OS" and you can't debug/trace
 
-* Embedded software:  
-* * Software running on something that's not "primarily a computer"
-* * May not even have an operating system
-* * Lives in computing power/memory constrained environment
-* * "Talks to hardware, not people"
-* * In particular, sensors + actuators is often the model
-* * "Old school" physical world not social media land
-* * Examples:  automotive, power plants, aerospace, robots, Internet of Things (controlled by the Russian mafia)...
+* We looked at some actual example code
+* * https://github.com/TheSEGAProject/CP-Firmware (Paul Flikkema's group)
+* * https://github.com/nasa/fprime (NASA "boilerplate" embedded code for CubeSAT "cheapo" satellite missions)
