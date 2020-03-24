@@ -14,7 +14,7 @@ First reading, to prepare yourselves: https://www.usenix.org/system/files/1311_0
 ## Table of Contents
 | Content | Description |
 |---------|-------------|
-| [Course Documents](./Course Documents) | A friendly folder containing course syllabus and other pertinent information. |
-| [Lecture Notes](./Lecture Notes) | Another friendly folder containing notes for each lecture we've had in class. |
-| [In Class Examples](./In Class Examples) | An extremely friendly folder that has any code snippets that we might've worked on during class. |
+| [Course Documents](./Course%20Documents) | A friendly folder containing course syllabus and other pertinent information. |
+| [Lecture Notes](./Lecture%20Notes) | Another friendly folder containing notes for each lecture we've had in class. |
+| [In Class Examples](./In%20Class%20Examples) | An extremely friendly folder that has any code snippets that we might've worked on during class. |
 | [Assignments](./Assignments) | The FRIENDLIEST folder in the repo containing all your homework assignments! |
