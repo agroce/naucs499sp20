@@ -1,7 +1,7 @@
 # Table of Contents
 | Class | Date | Description |
 |-------|------|-------------|
-| [Class 1]() | January 13, 2020 | First Day of Class! General Overview |
+| [Class 1](./notes/class01.md) | January 13, 2020 | First Day of Class! General Overview |
 | [Class 2]() | January 15, 2020 | |
 | [Class 3]() | January 17, 2020 | |
 | [Class 4]() | January 20, 2020 | |
