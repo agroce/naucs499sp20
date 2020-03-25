@@ -1,3 +1,5 @@
+# CLASS 5:  Reading Bytes from stdin
+
 - our program reads bytes from stdin
 
 - our program is broken iff it crashes
@@ -33,4 +35,3 @@ coverage to PATH coverages
 - Identify interesting inputs, by some measure of coverage
 - Try making (small, usually) changes to those inputs
 - Repeat
-
