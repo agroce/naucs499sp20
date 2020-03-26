@@ -18,3 +18,4 @@ First reading, to prepare yourselves: https://www.usenix.org/system/files/1311_0
 | [Lecture Notes](./Lecture%20Notes) | Another friendly folder containing notes for each lecture we've had in class. |
 | [In Class Examples](./In%20Class%20Examples) | An extremely friendly folder that has any code snippets that we might've worked on during class. |
 | [Assignments](./Assignments) | The FRIENDLIEST folder in the repo containing all your homework assignments! |
+| [Annotated Midterm](./annotated_midterm.pdf) | The annotated midterm. |
