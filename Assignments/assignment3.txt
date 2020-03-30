@@ -1,0 +1,22 @@
+Assignment 3: Symbolic execution
+DUE DATE:  4/20/20
+
+1.  Create a subdirectory in your class repo called assignment3
+
+2.  Write a small DeepState harness (test + function to test) that you
+think fuzzing will do well on and symbolic execution will do poorly
+on, call it fuzzingwins.cpp
+
+3.  Write a small DeepState harness (test + function to test) that you
+think symbolic execution will do well on and fuzzing will do poorly
+on, call it symexwins.cpp.  You can't reuse my Pythagorean triples example :)
+
+4.  Write an appropriate Makefile.
+
+5.  Run various fuzzers, AFL, the deepstate --fuzz, libfuzzer,
+eclipser, maybe honggfuzz, then try symbolic execution with angr and/or manticore
+
+6.  Discuss your results in a file, results.txt.  You're gonna want at
+least 600 words here.  More is fine.  Explain why your fuzzingwins
+favors fuzzing, and your symexwins favors symex.  Which is more
+realistic code?
