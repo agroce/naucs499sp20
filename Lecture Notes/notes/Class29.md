@@ -1,5 +1,8 @@
 # CLASS 29:
 
+(yes, I swapped with coverage/mutation analysis and ensemble fuzzing,
+trying to line up a guest lecture for mutation)
+
 Static analysis (SA) looks for problems in code _without running it_
 
 * Bad "patterns" in source code
