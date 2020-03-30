@@ -12,7 +12,7 @@
 | [Class 9](./notes/Class09.md) | January 31, 2020 | Sanitizers Big Picture / Odds and Ends |
 | [Class 10](./notes/Class10.md) | February 3, 2020 | NASA Gossip, My Career |
 | [Class 11](./notes/Class11.md) | February 5, 2020 | Test what you fly, and Doing Fixed Operations |
-| [Class 12](./notes/Class12.md) | February 7, 2020 | Mars Polar Lander, Fixing Budgs |
+| [Class 12](./notes/Class12.md) | February 7, 2020 | Mars Polar Lander, Fixing Bugs |
 | [Class 13](./notes/Class13.md) | February 10, 2020 | Simpling Fuzzing, Why Deepstate?! |
 | [Class 14](./notes/Class14.md) | February 12, 2020 | Looking for Pizza! |
 | [Class 15](./notes/Class15.md) | February 14, 2020 | Looking at the STACK |
@@ -29,3 +29,4 @@
 | [Class 26](./notes/Class26.md) | March 11, 2020 | Mid-term review |
 | [Class 27](./notes/Class27.md) | March 13, 2020 | Mid-term Exam!! |
 | [Class 28](./notes/Class28.md) | March 23, 2020 | Symbolic execution! |
+| [Class 28](./notes/Class29.md) | March 30, 2020 | Static analysis |
