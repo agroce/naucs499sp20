@@ -1,0 +1,26 @@
+CS 499 EMBEDDED TESTING FINAL PROJECT
+
+1.  Create a "Final_Project" subdir in your github repo
+
+2.  Pick some code to target.  Ideally this is something you can easily compile in different ways, and of modest size, because size will matter for a later step.  It can be something you targeted before, but make sure it is complicated enough that you can get different coverage results from different fuzzers, even with an hour+ run.  So a really simple string library may not do the trick.  You can take such a program, however, and hand-add code that makes it harder to cover everything.  In the worst case, just add behavior that is special cased on values for bytes or lengths of strings, etc.  But ideally you start with code that is at least a little complicated.
+
+3.  Fuzz/test the system.  You can use DeepState, or just direct fuzzing via a libFuzzer or AFL interface, whatever you want.  You may also apply symbolic execution.
+
+4.  Inject a bug into the code, if you did not already find a _real_ bug.
+
+5.  Perform the same testing you did in step 4, except this time a) use a fixed timeout (I suggest an absolute minimum of 10 minutes) for each tool that is the same.  You will probably need to write a script to make this work, for things like AFL or angr that don't take a timeout argument.  libFuzzer, eclipser, and DeepState's brute force fuzzer do take such arguments.  Use the same initial seed inputs for any fuzzers you run.  You MUST try at least four fuzzers on your code.  You can count AFL -d and AFL without -d and libFuzzer with and without -use_value_profile=1 as separate fuzzers.
+
+6.  Compile your program so it produces code coverage results, using llvm, and run corpuses produced by tools (afl_dir/queue, or the dir you gave libFuzzer, for example) and see how coverage differs between them.
+
+7.  Optional:  apply mutation testing and see which mutants the corpuses can detect (via causing a crash).  This is best done with a _clean_ version of the code from step 3 -- if your original code doesn't have a bug.  If it does have a bug, that's going to complicated the use of mutation.
+
+
+Your writeup should be at least 1500 words and contain sections labeled:
+
+- SYSTEM UNDER TEST:  this section describes the system you tested
+
+- FUZZING/TESTING APPROACHES:  what tools did you use, with what settings?  what timeout did you use?  did you try symbolic execution with angr?
+
+- BUG INFORMATION:  this describes either a real bug in the system you found, or a bug you injected.  If the latter, describe what the bug does, and give a code diff
+
+- COMPARISON OF TOOLS:  give the results, in full detail, from steps 5-7.  Talk a bit about this, and answer questions like:  do you think the results would be stable if you re-ran things?  Do you think the timeout you used is sufficient for good fuzzing?
