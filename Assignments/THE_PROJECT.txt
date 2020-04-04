@@ -1,4 +1,5 @@
 CS 499 EMBEDDED TESTING FINAL PROJECT
+DUE APRIL 24TH
 
 1.  Create a "Final_Project" subdir in your github repo
 
