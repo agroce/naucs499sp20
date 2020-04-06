@@ -1,6 +1,6 @@
 # CLASS 30:
 
-** Code coverage, mutation analysis, and evaluation of fuzzing **
+**Code coverage, mutation analysis, and evaluation of fuzzing**
 
 Question of the day:  what is the best fuzzer?  how would we know?  how would we know when a fuzzer gets _better_ over time, or worse or...?
 
@@ -14,15 +14,15 @@ Question of the day:  what is the best fuzzer?  how would we know?  how would we
 
 * * If you don't even run a line of code, _pretty tricky_ to find a bug in it!
 
-* * **REQUIRED READING:  https://agroce.github.io/onwardessays14.pdf **
+* * **REQUIRED READING:  https://agroce.github.io/onwardessays14.pdf**
 
-* * Code coverage is one way to evaluate fuzzers.  For example, check out the recent jump in effectiveness of Honggfuzz  here:  https://www.fuzzbench.com/reports/2020-04-01/index.html
+* * Code coverage is one way to evaluate fuzzers.  For example, check out the recent jump in effectiveness of Honggfuzz  here: https://www.fuzzbench.com/reports/2020-04-01/index.html
 
 * * But evaluating fuzzers properly is tricky business (one of my main research interests)
 
 * * **REQUIRED READING:  https://www.cs.umd.edu/~mwh/papers/fuzzeval.pdf**
 
-* * ** VIDEO: https://www.youtube.com/watch?v=ID8XtoMn43I **
+* * **VIDEO: https://www.youtube.com/watch?v=ID8XtoMn43I**
 
 -------------------------------------------------------------------
 
@@ -38,13 +38,13 @@ Question of the day:  what is the best fuzzer?  how would we know?  how would we
 
 * * **Bad:** mutation testing is _expensive_ and _more complicated_ than coverage
 
-* * ** VIDEO: https://www.youtube.com/watch?v=4bublRBCLVQ **
+* * **VIDEO: https://www.youtube.com/watch?v=4bublRBCLVQ**
 
-* * ** VIDEO: https://www.youtube.com/watch?v=rlfcGUDkSjQ **
+* * **VIDEO: https://www.youtube.com/watch?v=rlfcGUDkSjQ**
 
-* * ** VIDEO:  https://www.youtube.com/watch?v=NKEptA3KP08 **
+* * **VIDEO:  https://www.youtube.com/watch?v=NKEptA3KP08**
 
-* * ** VIDEO: https://www.youtube.com/watch?v=2T23mPVq2Hs **
+* * **VIDEO: https://www.youtube.com/watch?v=2T23mPVq2Hs**
 
 -------------------------------------------------------------------
 
@@ -56,9 +56,9 @@ Question of the day:  what is the best fuzzer?  how would we know?  how would we
 
 * * For important software (and **embedded systems** are often going to be in this class), you may want to not just measure a score but _examine every not-killed mutant by hand_
 
-* * * ** VIDEO: https://www.youtube.com/watch?v=tFmajPt0_hI **
+* * * **VIDEO: https://www.youtube.com/watch?v=tFmajPt0_hI**
 
-* * * ** READING: https://agroce.github.io/asej18.pdf **
+* * * **READING: https://agroce.github.io/asej18.pdf**
 
 * * * The reading also introduces CBMC, our topic for next week
 
