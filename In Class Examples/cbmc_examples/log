@@ -1,0 +1,266 @@
+CBMC version 5.11 (cbmc-5.11-733-ge2a543033) 64-bit x86_64 macos
+Parsing loops.c
+Converting
+Type-checking loops
+file loops.c line 9 function main: function `printf' is not declared
+file loops.c line 28 function main: function `assert' is not declared
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop main.0 iteration 1 file loops.c line 7 function main thread 0
+Unwinding loop main.0 iteration 2 file loops.c line 7 function main thread 0
+Unwinding loop main.0 iteration 3 file loops.c line 7 function main thread 0
+Unwinding loop main.0 iteration 4 file loops.c line 7 function main thread 0
+Unwinding loop main.0 iteration 5 file loops.c line 7 function main thread 0
+Unwinding loop main.1 iteration 1 file loops.c line 14 function main thread 0
+Unwinding loop main.1 iteration 2 file loops.c line 14 function main thread 0
+Unwinding loop main.1 iteration 3 file loops.c line 14 function main thread 0
+Unwinding loop main.1 iteration 4 file loops.c line 14 function main thread 0
+Unwinding loop main.2 iteration 1 file loops.c line 13 function main thread 0
+Unwinding loop main.1 iteration 1 file loops.c line 14 function main thread 0
+Unwinding loop main.1 iteration 2 file loops.c line 14 function main thread 0
+Unwinding loop main.1 iteration 3 file loops.c line 14 function main thread 0
+Unwinding loop main.2 iteration 2 file loops.c line 13 function main thread 0
+Unwinding loop main.1 iteration 1 file loops.c line 14 function main thread 0
+Unwinding loop main.1 iteration 2 file loops.c line 14 function main thread 0
+Unwinding loop main.2 iteration 3 file loops.c line 13 function main thread 0
+Unwinding loop main.1 iteration 1 file loops.c line 14 function main thread 0
+Unwinding loop main.2 iteration 4 file loops.c line 13 function main thread 0
+Unwinding loop main.3 iteration 1 file loops.c line 24 function main thread 0
+Unwinding loop main.3 iteration 2 file loops.c line 24 function main thread 0
+Unwinding loop main.3 iteration 3 file loops.c line 24 function main thread 0
+Unwinding loop main.3 iteration 4 file loops.c line 24 function main thread 0
+Unwinding loop main.4 iteration 1 file loops.c line 23 function main thread 0
+Unwinding loop main.3 iteration 1 file loops.c line 24 function main thread 0
+Unwinding loop main.3 iteration 2 file loops.c line 24 function main thread 0
+Unwinding loop main.3 iteration 3 file loops.c line 24 function main thread 0
+Unwinding loop main.4 iteration 2 file loops.c line 23 function main thread 0
+Unwinding loop main.3 iteration 1 file loops.c line 24 function main thread 0
+Unwinding loop main.3 iteration 2 file loops.c line 24 function main thread 0
+Unwinding loop main.4 iteration 3 file loops.c line 23 function main thread 0
+Unwinding loop main.3 iteration 1 file loops.c line 24 function main thread 0
+Unwinding loop main.4 iteration 4 file loops.c line 23 function main thread 0
+size of program expression: 263 steps
+simple slicing removed 11 assignments
+Generated 10 VCC(s), 10 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 without simplifier
+3946 variables, 10798 clauses
+SAT checker: instance is SATISFIABLE
+Runtime decision procedure: 0.0106624s
+
+** Results:
+loops.c function main
+[main.assertion.1] line 28 assertion a[(signed long int)i] != a[(signed long int)j]: FAILURE
+
+Trace for main.assertion.1:
+
+State 17 file loops.c function main line 6 thread 0
+----------------------------------------------------
+  a={ 0, 0, 0, 0, 0 } ({ 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 })
+
+State 18 file loops.c function main line 7 thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 19 file loops.c function main line 7 thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 21 file loops.c function main line 8 thread 0
+----------------------------------------------------
+  a[0l]=-1 (11111111 11111111 11111111 11111111)
+LOG: a[0] = -1
+
+
+State 23 file loops.c function main line 7 thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 26 file loops.c function main line 8 thread 0
+----------------------------------------------------
+  a[1l]=0 (00000000 00000000 00000000 00000000)
+LOG: a[1] = 0
+
+
+State 28 file loops.c function main line 7 thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 31 file loops.c function main line 8 thread 0
+----------------------------------------------------
+  a[2l]=-1 (11111111 11111111 11111111 11111111)
+LOG: a[2] = -1
+
+
+State 33 file loops.c function main line 7 thread 0
+----------------------------------------------------
+  i=3 (00000000 00000000 00000000 00000011)
+
+State 36 file loops.c function main line 8 thread 0
+----------------------------------------------------
+  a[3l]=-1 (11111111 11111111 11111111 11111111)
+LOG: a[3] = -1
+
+
+State 38 file loops.c function main line 7 thread 0
+----------------------------------------------------
+  i=4 (00000000 00000000 00000000 00000100)
+
+State 41 file loops.c function main line 8 thread 0
+----------------------------------------------------
+  a[4l]=-1 (11111111 11111111 11111111 11111111)
+LOG: a[4] = -1
+
+
+State 43 file loops.c function main line 7 thread 0
+----------------------------------------------------
+  i=5 (00000000 00000000 00000000 00000101)
+
+State 46 file loops.c function main line 13 thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 47 file loops.c function main line 13 thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 49 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 50 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=1 (00000000 00000000 00000000 00000001)
+
+State 53 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=2 (00000000 00000000 00000000 00000010)
+LOG: setting a[0] to 0 to avoid matching a[2]
+
+
+State 58 file loops.c function main line 17 thread 0
+----------------------------------------------------
+  a[0l]=0 (00000000 00000000 00000000 00000000)
+
+State 59 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=3 (00000000 00000000 00000000 00000011)
+
+State 63 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=4 (00000000 00000000 00000000 00000100)
+
+State 67 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=5 (00000000 00000000 00000000 00000101)
+
+State 70 file loops.c function main line 13 thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 73 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 74 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=2 (00000000 00000000 00000000 00000010)
+
+State 77 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=3 (00000000 00000000 00000000 00000011)
+
+State 81 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=4 (00000000 00000000 00000000 00000100)
+
+State 85 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=5 (00000000 00000000 00000000 00000101)
+
+State 88 file loops.c function main line 13 thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 91 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 92 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=3 (00000000 00000000 00000000 00000011)
+LOG: setting a[2] to 0 to avoid matching a[3]
+
+
+State 96 file loops.c function main line 17 thread 0
+----------------------------------------------------
+  a[2l]=0 (00000000 00000000 00000000 00000000)
+
+State 97 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=4 (00000000 00000000 00000000 00000100)
+
+State 101 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=5 (00000000 00000000 00000000 00000101)
+
+State 104 file loops.c function main line 13 thread 0
+----------------------------------------------------
+  i=3 (00000000 00000000 00000000 00000011)
+
+State 107 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 108 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=4 (00000000 00000000 00000000 00000100)
+LOG: setting a[3] to 0 to avoid matching a[4]
+
+
+State 112 file loops.c function main line 17 thread 0
+----------------------------------------------------
+  a[3l]=0 (00000000 00000000 00000000 00000000)
+
+State 113 file loops.c function main line 14 thread 0
+----------------------------------------------------
+  j=5 (00000000 00000000 00000000 00000101)
+
+State 116 file loops.c function main line 13 thread 0
+----------------------------------------------------
+  i=4 (00000000 00000000 00000000 00000100)
+
+State 119 file loops.c function main line 23 thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 120 file loops.c function main line 23 thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 122 file loops.c function main line 24 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 123 file loops.c function main line 24 thread 0
+----------------------------------------------------
+  j=1 (00000000 00000000 00000000 00000001)
+LOG a[0] = 0 = a[1]
+
+
+Violated property:
+  file loops.c function main line 28 thread 0
+  assertion a[(signed long int)i] != a[(signed long int)j]
+  a[(signed long int)i] != a[(signed long int)j]
+
+
+
+** 1 of 1 failed (1 iteration)
+VERIFICATION FAILED
