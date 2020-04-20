@@ -31,5 +31,6 @@
 | [Class 28](./notes/Class28.md) | March 23, 2020 | Symbolic execution! |
 | [Class 29](./notes/Class29.md) | March 30, 2020 | Static analysis |
 | [Class 30](./notes/Class30.md) | April 6, 2020 | Coverage and mutation analysis |
-| [Class 31](./notes/Class31.md) | April 6, 2020 | CBMC and Bounded Model Checking |
+| [Class 31](./notes/Class31.md) | April 14, 2020 | CBMC and Bounded Model Checking |
+| [Class 32](./notes/Class32.md) | April 20, 2020 | Timing |
 
