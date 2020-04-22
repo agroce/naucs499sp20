@@ -33,4 +33,5 @@
 | [Class 30](./notes/Class30.md) | April 6, 2020 | Coverage and mutation analysis |
 | [Class 31](./notes/Class31.md) | April 14, 2020 | CBMC and Bounded Model Checking |
 | [Class 32](./notes/Class32.md) | April 20, 2020 | Timing |
+| [Class 33](./notes/Class33.md) | April 22, 2020 | Review for Second Test, Part I |
 
